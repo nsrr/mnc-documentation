@@ -24,7 +24,7 @@ Description of available data.
 
 ## Related links
 
-- [Stanford STAGES automated sleep scoring software (GitHub)](https://github.com/stanford-stages/stanford-stages)
+- [Stanford STAGES automated sleep scoring software (github.com)](https://github.com/stanford-stages/stanford-stages)
 
 ## Questions?
 
