@@ -20,14 +20,11 @@ Please include the following text in the Acknowledgements:
 
 ## Data overview
 
-**[/polysomnography](:files_path:/polysomnography)** ([introduction](:pages_path:/polysomnography-introduction.md))<br/> TBD
+Description of available data.
 
-## Protocols and manuals
+## Related links
 
-- TBD
-
-## Equipment
-- TBD
+- [Stanford STAGES automated sleep scoring software (GitHub)](https://github.com/stanford-stages/stanford-stages)
 
 ## Questions?
 
