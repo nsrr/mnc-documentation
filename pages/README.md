@@ -20,7 +20,7 @@ Please include the following text in the Acknowledgements:
 
 ## Data overview
 
-The NSRR team plans to harmonize the [publicly available EDF and staging data](https://stanfordmedicine.app.box.com/s/r9e92ygq0erf7hn5re6j51aaggf50jly) and eventually release those data here. (**April 17, 2020**)
+The NSRR team plans to harmonize the [publicly available EDF and staging data](https://stanfordmedicine.app.box.com/s/r9e92ygq0erf7hn5re6j51aaggf50jly) and release those data here. (*April 17, 2020*)
 
 ## Related links
 
