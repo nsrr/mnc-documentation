@@ -20,11 +20,12 @@ Please include the following text in the Acknowledgements:
 
 ## Data overview
 
-Description of available data.
+The NSRR team plans to harmonize the [publicly available EDF and staging data](https://stanfordmedicine.app.box.com/s/r9e92ygq0erf7hn5re6j51aaggf50jly) and eventually release those data here. (**April 17, 2020**)
 
 ## Related links
 
 - [Stanford STAGES automated sleep scoring software (github.com)](https://github.com/stanford-stages/stanford-stages)
+- [Anonymized data on public Box share](https://stanfordmedicine.app.box.com/s/r9e92ygq0erf7hn5re6j51aaggf50jly)
 
 ## Questions?
 
