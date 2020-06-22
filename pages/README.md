@@ -27,7 +27,7 @@ The .eannot files contain rows corresponding to 30-second epochs. Coding informa
 - CNC/SSC staging: 0 Wake; 1 N1; 2 N2; 3 N3; 4 N4; 5 REM; 7 Unknown
 - DHC staging: 1 Wake; 0 REM; -1 N1; -2 N2; -3 N3
 
-The .xml staging files adhere to a [commonly used NSRR XML annotation format](https://github.com/nsrr/edf-editor-translator/wiki/Physiomimi-Format).
+The .xml staging files adhere to [the NSRR XML annotation format](https://github.com/nsrr/edf-editor-translator/wiki/Physiomimi-Format) used across many datasets.
 
 To access the NSRR harmonized versions of the MNC data, [complete a new data request](https://staging.partners.org/sleepdata.org/data/requests/mnc/start). Once the NSRR team approves your access, [click here to browse and download files](:files_path:).
 
