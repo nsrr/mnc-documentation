@@ -22,7 +22,7 @@ Please include the following text in the Acknowledgements:
 
 The NSRR team harmonized the [publicly available EDF and staging data](https://stanfordmedicine.app.box.com/s/r9e92ygq0erf7hn5re6j51aaggf50jly) using the [Luna software package](http://zzz.bwh.harvard.edu/luna/) to make future analyses simpler. The [montage and sampling rate information page](:pages_path:/montage-and-sampling-rate-information.md) details the harmonized EDF channel labels. We converted manual sleep staging data into two different formats: .eannot and .xml. Some cohorts did not include manual sleep staging data.
 
-The .eannot files contain rows corresponding to 30-second epochs. Coding information is as follows:
+The .eannot staging files contain rows corresponding to 30-second epochs. Coding information is as follows:
 
 - CNC/SSC staging: 0 Wake; 1 N1; 2 N2; 3 N3; 4 N4; 5 REM; 7 Unknown
 - DHC staging: 1 Wake; 0 REM; -1 N1; -2 N2; -3 N3
