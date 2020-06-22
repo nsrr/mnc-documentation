@@ -18,7 +18,7 @@ Please include the following text in the Acknowledgements:
 
 > The Mignot Nature Communications research was mostly supported by a grant from Jazz Pharmaceuticals to E.M. Additional funding came from: NIH grant R01HL62252 (to P.E.P.); Ministry of Science and Technology 2015CB856405 and National Foundation of Science of China 81420108002,81670087 (to F.H.); H. Lundbeck A/S, Lundbeck Foundation, Technical University of Denmark and Center for Healthy Aging, University of Copenhagen (to P.J. and H.B.D.S). Additional support was provided by the Klarman Family, Otto Mønsted, Stibo, Vera & Carl Johan Michaelsens, Knud Højgaards, Reinholdt W. Jorck and Hustrus and Augustinus Foundations (to A.N.O.). The National Sleep Research Resource was supported by the National Heart, Lung, and Blood Institute (R24 HL114473, RFP 75N92019R002).
 
-## Data overview
+## Polysomnography data
 
 The NSRR team harmonized the [publicly available EDF and staging data](https://stanfordmedicine.app.box.com/s/r9e92ygq0erf7hn5re6j51aaggf50jly) using the [Luna software package](http://zzz.bwh.harvard.edu/luna/) to make future analyses simpler. The [montage and sampling rate information page](:pages_path:/montage-and-sampling-rate-information.md) details the harmonized EDF channel labels. We converted manual sleep staging data into two different formats: .eannot and .xml. Some cohorts did not include manual sleep staging data.
 
@@ -29,7 +29,15 @@ The .eannot files contain rows corresponding to 30-second epochs. Coding informa
 
 The .xml staging files adhere to a [commonly used NSRR XML annotation format](https://github.com/nsrr/edf-editor-translator/wiki/Physiomimi-Format).
 
-To access the NSRR harmonized versions of these files, [complete a new data request](https://staging.partners.org/sleepdata.org/data/requests/mnc/start). Once the NSRR team approves your access, [click here to browse and download files](:files_path:).
+To access the NSRR harmonized versions of the MNC data, [complete a new data request](https://staging.partners.org/sleepdata.org/data/requests/mnc/start). Once the NSRR team approves your access, [click here to browse and download files](:files_path:).
+
+## Subject data (cohorts_deid.xlsx)
+
+The [**cohorts_deid.xlsx** file](:files_path:) was presented with the manuscript for matching case and control subjects from the various cohorts.  It matches individual subject IDs with their corresponding cohort, a narcolepsy or control diagnosis, and which part or parts of the analysis their sleep study was used for (e.g. training, testing, validation).
+
+CSF refers to cerebrospinal fluid, and if there is a numeric value it would be in reference to how much hypocretin was found there.  It is used as a final indicator for narcolepsy.
+
+DB0602 is in reference to the allele HLA-DQB1*06:02; which is relatively common in the general population, and extremely common among those diagnosed as narcoleptic. In other words, most people who are DQB0602 positive do not have narcolepsy, while almost all people with narcolepsy are DQB0602 positive.
 
 ## Related links
 
