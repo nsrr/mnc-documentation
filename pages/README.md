@@ -10,19 +10,24 @@ The National Sleep Research Resource is grateful to Emmanual Mignot for sharing 
 
 When using this dataset, please cite the following:
 
-> [Zhang GQ, Cui L, Mueller R, et al. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc. 2018;25(10):1351–1358. doi:10.1093/jamia/ocy064](https://pubmed.ncbi.nlm.nih.gov/29860441/)
+> [Zhang GQ, Cui L, Mueller R, Tao S, Kim M, Rueschman M, Mariani S, Mobley D, Redline S. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc. 2018 Oct 1;25(10):1351-1358. doi: 10.1093/jamia/ocy064. PMID: 29860441; PMCID: PMC6188513.](https://pubmed.ncbi.nlm.nih.gov/29860441/)
 >
-> [Stephansen JB, Olesen AN, Olsen M, et al. Neural network analysis of sleep stages enables efficient diagnosis of narcolepsy. Nat Commun. 2018;9(1):5229. Published 2018 Dec 6. doi:10.1038/s41467-018-07229-3](https://pubmed.ncbi.nlm.nih.gov/30523329/)
+> [Stephansen JB, Olesen AN, Olsen M, Ambati A, Leary EB, Moore HE, Carrillo O, Lin L, Han F, Yan H, Sun YL, Dauvilliers Y, Scholz S, Barateau L, Hogl B, Stefani A, Hong SC, Kim TW, Pizza F, Plazzi G, Vandi S, Antelmi E, Perrin D, Kuna ST, Schweitzer PK, Kushida C, Peppard PE, Sorensen HBD, Jennum P, Mignot E. Neural network analysis of sleep stages enables efficient diagnosis of narcolepsy. Nat Commun. 2018 Dec 6;9(1):5229. doi: 10.1038/s41467-018-07229-3. PMID: 30523329; PMCID: PMC6283836.](https://pubmed.ncbi.nlm.nih.gov/30523329/)
 
 Please include the following text in the Acknowledgements:
 
-> The Mignot Nature Communications research was mostly supported by a grant from Jazz Pharmaceuticals to E.M. Additional funding came from: NIH grant R01HL62252 (to P.E.P.); Ministry of Science and Technology 2015CB856405 and National Foundation of Science of China 81420108002,81670087 (to F.H.); H. Lundbeck A/S, Lundbeck Foundation, Technical University of Denmark and Center for Healthy Aging, University of Copenhagen (to P.J. and H.B.D.S). Additional support was provided by the Klarman Family, Otto Mønsted, Stibo, Vera & Carl Johan Michaelsens, Knud Højgaards, Reinholdt W. Jorck and Hustrus and Augustinus Foundations (to A.N.O.). The National Sleep Research Resource was supported by the National Institutes of Health, National Heart Lung and Blood Institute (R24 HL114473, RFP 75N92019R002).
+> The Mignot Nature Communications research was mostly supported by a grant from Jazz Pharmaceuticals to E.M. Additional funding came from: NIH grant R01HL62252 (to P.E.P.); Ministry of Science and Technology 2015CB856405 and National Foundation of Science of China 81420108002,81670087 (to F.H.); H. Lundbeck A/S, Lundbeck Foundation, Technical University of Denmark and Center for Healthy Aging, University of Copenhagen (to P.J. and H.B.D.S). Additional support was provided by the Klarman Family, Otto Mønsted, Stibo, Vera & Carl Johan Michaelsens, Knud Højgaards, Reinholdt W. Jorck and Hustrus and Augustinus Foundations (to A.N.O.). The National Sleep Research Resource was supported by the National Heart, Lung, and Blood Institute (R24 HL114473, RFP 75N92019R002).
 
 ## Data overview
 
-The NSRR team plans to harmonize the [publicly available EDF and staging data](https://stanfordmedicine.app.box.com/s/r9e92ygq0erf7hn5re6j51aaggf50jly) and release those data here. Please check back later for updates.
+The NSRR team harmonized the [publicly available EDF and staging data](https://stanfordmedicine.app.box.com/s/r9e92ygq0erf7hn5re6j51aaggf50jly) to make future analyses simpler. The [montage and sampling rate information page](:pages_path:/montage-and-sampling-rate-information.md) details the harmonized EDF channel labels. We converted manual sleep staging data into two different formats: .eannot and .xml. Some cohorts did not include manual sleep staging data.
 
---*NSRR Team, April 2020*
+The .eannot files contain rows corresponding to 30-second epochs. Coding information is as follows:
+
+- CNC/SSC staging: 0 Wake; 1 N1; 2 N2; 3 N3; 4 N4; 5 REM; 7 Unknown
+- DHC staging: 1 Wake; 0 REM; -1 N1; -2 N2; -3 N3
+
+The .xml staging files adhere to a [commonly used NSRR XML annotation format](https://github.com/nsrr/edf-editor-translator/wiki/Physiomimi-Format).
 
 ## Related links
 
