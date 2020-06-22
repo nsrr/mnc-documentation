@@ -29,6 +29,8 @@ The .eannot files contain rows corresponding to 30-second epochs. Coding informa
 
 The .xml staging files adhere to a [commonly used NSRR XML annotation format](https://github.com/nsrr/edf-editor-translator/wiki/Physiomimi-Format).
 
+To access the NSRR harmonized versions of these files, [complete a new data request](https://staging.partners.org/sleepdata.org/data/requests/mnc/start). Once the NSRR team approves your access, [click here to browse and download files](:files_path:).
+
 ## Related links
 
 - [Stanford STAGES automated sleep scoring software (github.com)](https://github.com/stanford-stages/stanford-stages)
