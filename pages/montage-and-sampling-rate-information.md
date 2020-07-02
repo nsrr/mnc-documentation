@@ -22,10 +22,6 @@
 | Left Frontal EEG                          | F3        | F3        | Fpz     | 128                | -                     | -|
 | Right Frontal EEG                         | F4        | F4        | Fpz     | 128                | -                     | -|
 | Airflow                                   | flow      | flow      | -       | 16                 | -                     | -|
-| Left Prefrontal EEG                       | Fp1       | Fp1       | Fpz     | 128                | -                     | -|
-| Right Prefrontal EEG                      | Fp2       | Fp2       | Fpz     | 128                | -                     | -|
-| Linked Z-line Frontal & Left Mastoid EEG  | Fz_M1     | Fz_M1     | Fpz     | 128                | -                     | -|
-| Linked Z-line Frontal & Right Mastoid EEG | Fz_M2     | Fz_M2     | Fpz     | 128                | -                     | -|
 | Gravity X                                 | gravx     | gravx     | -       | 10                 | -                     | -|
 | Gravity Y                                 | gravy     | gravy     | -       | 10                 | -                     | -|
 | Heart Rate                                | hr        | hr        | -       | 1                  | -                     | -|
@@ -37,7 +33,6 @@
 | Linked Left Leg EMG                       | lleg1_2   | lleg1_2   | Fpz     | 128                | -                     | -|
 | Linked Left & Right Leg EMG               | lleg_r    | lleg_r    | Fpz     | 128                | -                     | -|
 | Left Mastoid EEG                          | M1        | M1        | Fpz     | 128                | -                     | -|
-| Linked Left & Right Mastoid EEG           | M1_M2     | M1_M2     | Fpz     | 128                | -                     | -|
 | Right Mastoid EEG                         | M2        | M2        | Fpz     | 128                | -                     | -|
 | Nasal Pressure                            | nas_pres  | nas_pres  | -       | 32                 | -                     | -|
 | Left Occipital EEG                        | O1        | O1        | Fpz     | 128                | -                     | -|
