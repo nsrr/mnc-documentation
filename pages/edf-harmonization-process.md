@@ -1,5 +1,7 @@
 # EDF Harmonization Process
 
+### Signal harmonization
+
 - Using Luna, a list of all channel names were extracted from the EDFs for the Mignot Nature Communication cohort. Subsequently, the channel names in EDF files were changed to a new set of standardized channel names listed on the [montage page] (:pages_path:/montage-and-sampling-rate-information.md) under "EDF Label".
 - The DHC subcohort provided recordings in .mat format, these were converted to EDF
 - A few EDFs contained additional EEG channels Fz_M1, Fz_M2, and M1_M2, these were removed.
@@ -18,7 +20,7 @@
 | ECG  | ECG,ECG2 | .         | 100            |                  |
 | ECG  | ECG1_2   | .         | 100            | Using linked ECG |
 
-Annotation Harmonization
+### Annotation harmonization
 
 - 3 subcohorts provided scoring annotations: SSC, CNC, and DHC.
 - SSC and CNC annotations were converted from .sta format to Luna's .eannot format
