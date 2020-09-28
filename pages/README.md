@@ -22,7 +22,7 @@ Please include the following text in the Acknowledgements:
 
 The NSRR team [harmonized the publicly available EDF and staging data](:pages_path:/edf-harmonization-process.md) using the [Luna software package](http://zzz.bwh.harvard.edu/luna/) to make future analyses simpler. The [montage and sampling rate information page](:pages_path:/montage-and-sampling-rate-information.md) details the harmonized EDF channel labels. We converted manual sleep staging data into two different formats: .eannot and .xml. Some cohorts did not include manual sleep staging data.
 
-To access the NSRR harmonized versions of the MNC data, [complete a new data request](https://staging.partners.org/sleepdata.org/data/requests/mnc/start). Once the NSRR team approves your access, [click here to browse and download files](:files_path:).
+To access the NSRR harmonized versions of the MNC data, [complete a new data request](https://sleepdata.org/data/requests/mnc/start). Once the NSRR team approves your access, [click here to browse and download files](:files_path:).
 
 ## Subject data (cohorts_deid.xlsx)
 
