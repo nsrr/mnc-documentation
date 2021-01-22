@@ -37,6 +37,12 @@ DB0602 is in reference to the allele HLA-DQB1*06:02; which is relatively common 
 - [Stanford STAGES automated sleep scoring software (github.com)](https://github.com/stanford-stages/stanford-stages)
 - [Anonymized data on public Box share](https://stanfordmedicine.app.box.com/s/r9e92ygq0erf7hn5re6j51aaggf50jly)
 
+## Changelog
+
+*January 22, 2021*
+
+- Replace `cohorts_deid.xlsx` file to fix data errors
+
 ## Questions?
 
 Please reach out to us at support@sleepdata.org or in the [Forum](https://sleepdata.org/forum) if you have questions.
