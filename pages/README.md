@@ -32,6 +32,8 @@ CSF refers to cerebrospinal fluid, and if there is a numeric value it would be i
 
 DB0602 is in reference to the allele HLA-DQB1*06:02; which is relatively common in the general population, and extremely common among those diagnosed as narcoleptic. In other words, most people who are DQB0602 positive do not have narcolepsy, while almost all people with narcolepsy are DQB0602 positive.
 
+Demographic data are **not available** for MNC subjects.
+
 ## Related links
 
 - [Stanford STAGES automated sleep scoring software (github.com)](https://github.com/stanford-stages/stanford-stages)
